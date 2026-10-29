@@ -1,11 +1,11 @@
 {
-  "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^18.0.9",
-    "express": "^5.3.0",
-    "knex": "^3.3.0",
-    "pg": "^8.23.1"
-  },
+  "name": "posts_instagram",
   "type": "module",
-  "scripts": {}
+  "scripts": { "dev": "node --watch src/server.js" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "knex": "^3.1.0",
+    "pg": "^8.11.5"
+  }
 }
